@@ -1,0 +1,128 @@
+Quant Model CRWD/
+├── analysis
+│   ├── directional
+│   │   ├── 10m
+│   │   │   ├── all
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   ├── exclude_opinion
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   └── news
+│   │   │       ├── feature_importance.csv
+│   │   │       ├── logistic_regression.joblib
+│   │   │       ├── metrics.txt
+│   │   │       ├── predictions.csv
+│   │   │       └── tfidf_vectorizer.joblib
+│   │   ├── 1d
+│   │   │   ├── all
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   ├── exclude_opinion
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   └── news
+│   │   │       ├── feature_importance.csv
+│   │   │       ├── logistic_regression.joblib
+│   │   │       ├── metrics.txt
+│   │   │       ├── predictions.csv
+│   │   │       └── tfidf_vectorizer.joblib
+│   │   ├── 5d
+│   │   │   ├── all
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   ├── exclude_opinion
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   └── news
+│   │   │       ├── feature_importance.csv
+│   │   │       ├── logistic_regression.joblib
+│   │   │       ├── metrics.txt
+│   │   │       ├── predictions.csv
+│   │   │       └── tfidf_vectorizer.joblib
+│   │   ├── 60m
+│   │   │   ├── all
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   ├── exclude_opinion
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   └── news
+│   │   │       ├── feature_importance.csv
+│   │   │       ├── logistic_regression.joblib
+│   │   │       ├── metrics.txt
+│   │   │       ├── predictions.csv
+│   │   │       └── tfidf_vectorizer.joblib
+│   │   ├── close
+│   │   │   ├── all
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   ├── exclude_opinion
+│   │   │   │   ├── feature_importance.csv
+│   │   │   │   ├── logistic_regression.joblib
+│   │   │   │   ├── metrics.txt
+│   │   │   │   ├── predictions.csv
+│   │   │   │   └── tfidf_vectorizer.joblib
+│   │   │   └── news
+│   │   │       ├── feature_importance.csv
+│   │   │       ├── logistic_regression.joblib
+│   │   │       ├── metrics.txt
+│   │   │       ├── predictions.csv
+│   │   │       └── tfidf_vectorizer.joblib
+│   │   ├── all_model_results.csv
+│   │   ├── baseline_comparison_summary.csv
+│   │   └── winning_model_summary.txt
+│   └── return
+├── data
+│   ├── checkpoints
+│   │   └── CRWD_checkpoint.txt
+│   ├── raw
+│   │   ├── CRWD_1min_5years.csv
+│   │   ├── CRWD_news_5yrs.csv
+│   │   ├── CRWD_news_5yrs.parquet
+│   │   ├── news.csv
+│   │   └── price_data.csv
+│   ├── targets
+│   │   └── article_training_dataset.csv
+│   └── utc_adjusted
+│       ├── UTC_adjusted_news.csv
+│       └── UTC_adjusted_price_data.csv
+├── data_gathering_and_organizing
+│   ├── UTC_conversions.py
+│   ├── news_data_gathering.py
+│   └── price_data_gathering.py
+├── dev_utility
+│   └── generate_tree.py
+├── generate_article_targets.py
+├── model_testing.py
+├── readme.md
+├── summarize_models.py
+├── train_directional.py
+└── winning_model_summary.py

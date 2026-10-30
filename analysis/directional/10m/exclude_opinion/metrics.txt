@@ -1,0 +1,25 @@
+10m/exclude_opinion/
+============================================================
+
+Rows : 1446
+
+Accuracy : 0.520690
+Precision: 0.517730
+Recall   : 0.506944
+F1 Score : 0.512281
+
+Confusion Matrix
+----------------
+[[78 68]
+ [71 73]]
+
+Classification Report
+---------------------
+              precision    recall  f1-score   support
+
+           0       0.52      0.53      0.53       146
+           1       0.52      0.51      0.51       144
+
+    accuracy                           0.52       290
+   macro avg       0.52      0.52      0.52       290
+weighted avg       0.52      0.52      0.52       290

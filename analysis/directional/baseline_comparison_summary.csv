@@ -1,0 +1,16 @@
+model,model_accuracy,baseline_accuracy,improvement,majority_class
+direction_close_news,0.619565,0.565217,0.054348,1
+direction_60m_news,0.586957,0.565217,0.021739,1
+direction_10m_exclude_opinion,0.52069,0.503448,0.017241,0
+direction_10m_all,0.515807,0.512479,0.003328,1
+direction_close_all,0.520799,0.519135,0.001664,1
+direction_5d_news,0.532609,0.532609,0.0,1
+direction_close_exclude_opinion,0.506897,0.506897,0.0,1
+direction_10m_news,0.576087,0.597826,-0.021739,1
+direction_1d_all,0.490849,0.517471,-0.026622,1
+direction_60m_exclude_opinion,0.489655,0.517241,-0.027586,1
+direction_60m_all,0.489185,0.517471,-0.028286,1
+direction_5d_exclude_opinion,0.489655,0.544828,-0.055172,1
+direction_1d_exclude_opinion,0.448276,0.52069,-0.072414,1
+direction_5d_all,0.462562,0.577371,-0.114809,1
+direction_1d_news,0.380435,0.619565,-0.23913,1

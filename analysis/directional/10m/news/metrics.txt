@@ -1,0 +1,25 @@
+10m/news/
+============================================================
+
+Rows : 456
+
+Accuracy : 0.576087
+Precision: 0.642857
+Recall   : 0.654545
+F1 Score : 0.648649
+
+Confusion Matrix
+----------------
+[[17 20]
+ [19 36]]
+
+Classification Report
+---------------------
+              precision    recall  f1-score   support
+
+           0       0.47      0.46      0.47        37
+           1       0.64      0.65      0.65        55
+
+    accuracy                           0.58        92
+   macro avg       0.56      0.56      0.56        92
+weighted avg       0.57      0.58      0.58        92

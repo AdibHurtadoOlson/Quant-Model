@@ -1,0 +1,76 @@
+WINNING MODEL ANALYSIS
+================================================================================
+
+OVERALL PERFORMANCE
+--------------------------------------------------------------------------------
+Predictions: 92
+Accuracy: 0.6196
+
+TOP 25 POSITIVE PREDICTORS
+--------------------------------------------------------------------------------
+cybersecurity: 0.614960
+sector: 0.504551
+ai: 0.474504
+fortinet: 0.389108
+airlines: 0.362400
+29 analysts: 0.359361
+nvidia: 0.357330
+big: 0.347320
+cybersecurity market: 0.332358
+palo alto: 0.327652
+palo: 0.327652
+alto: 0.327652
+crowdstrike shares: 0.315104
+insider: 0.314715
+enterprise: 0.299276
+cyberark: 0.297627
+billion: 0.296305
+month: 0.292987
+focus: 0.286474
+20: 0.285924
+digital: 0.282661
+bell: 0.281059
+falcon: 0.272011
+cybersecurity stocks: 0.271552
+ukraine: 0.269124
+
+TOP 25 NEGATIVE PREDICTORS
+--------------------------------------------------------------------------------
+cut: -0.549655
+outage: -0.503947
+company reported: -0.450363
+shares fell: -0.395391
+second quarter: -0.380180
+think: -0.378634
+10: -0.362034
+second: -0.347904
+cut price: -0.331969
+markets: -0.327464
+claims: -0.317882
+okta: -0.314786
+reported: -0.309522
+nyse: -0.308059
+34: -0.305594
+windows: -0.302633
+33: -0.298392
+fell: -0.298157
+21 analysts: -0.295244
+just: -0.293387
+quarter: -0.291804
+july: -0.289598
+monday: -0.283789
+software update: -0.275007
+firm: -0.274925
+
+CONFIDENCE FILTER ANALYSIS
+--------------------------------------------------------------------------------
+ threshold  observations  coverage  accuracy
+       0.6            44  0.478261  0.659091
+       0.7            11  0.119565  0.636364
+       0.8             2  0.021739  1.000000
+
+SOURCE LEVEL PERFORMANCE
+--------------------------------------------------------------------------------
+            source  count  accuracy
+          Benzinga   66.0  0.651515
+GlobeNewswire Inc.   26.0  0.538462
